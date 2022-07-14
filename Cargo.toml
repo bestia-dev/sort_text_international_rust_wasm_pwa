@@ -1,0 +1,45 @@
+
+[package]
+name = "sort_text_international_rust_wasm_pwa"
+version = "2022.714.2313"
+authors = ["bestia.dev"]
+homepage = "https://bestia.dev"
+edition = "2021"
+description = "Sort text in different collations. It is a tutorial for Rust WASM PWA."
+repository = "https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa"
+readme = "README.md"
+license = "MIT"
+keywords = ["wasm"]
+categories = ["tutorial"]
+publish = false
+
+[lib]
+# cdylib is for the wasm module library
+crate-type = ["cdylib"]
+
+[dependencies]
+# the macro unwrap is great for WASM, because it shows the correct file and line number of the error
+unwrap = "1.2.1"
+wasm-bindgen = { version = "0.2.69", features = ["serde-serialize"] }
+console_error_panic_hook = "0.1.6"
+js-sys = "0.3.46"
+
+[dependencies.web-sys]
+version = "0.3.46"
+features = [
+  "AbortController",
+  "console",
+  "Document",
+  "Element",
+  "ErrorEvent",
+  "HtmlElement",
+  "HtmlInputElement",
+  "Window",
+]
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.19"
+
+[profile.release]
+panic = "abort"
+
