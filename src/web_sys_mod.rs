@@ -44,13 +44,6 @@ pub fn html_encode(input: &str) -> String {
         .replace(">", "&gt;")
 }
 
-/// get input element value string by id
-pub fn get_input_element_value_string_by_id(element_id: &str) -> String {
-    let input_element = get_element_by_id(element_id);
-    let input_html_element = unwrap!(input_element.dyn_into::<web_sys::HtmlInputElement>());
-    input_html_element.value()
-}
-
 /// set inner html into dom
 /// The inner_html must be correctly HTML encoded !
 pub fn set_inner_html(element_id: &str, inner_html: &str) {
@@ -68,4 +61,26 @@ pub fn add_listener_to_button(element_id: &str, fn_on_click_button: &'static (dy
     let html_element = get_html_element_by_id(element_id);
     html_element.set_onclick(Some(closure.as_ref().unchecked_ref()));
     closure.forget();
+}
+
+/// get text_area element value string by id
+pub fn get_text_area_element_value_string_by_id(element_id: &str) -> String {
+    // debug_write("before get_element_by_id");
+    let text_area_element = get_element_by_id(element_id);
+    // debug_write("before dyn_into");
+    let text_area_html_element =
+        unwrap!(text_area_element.dyn_into::<web_sys::HtmlTextAreaElement>());
+    // debug_write("before value()");
+    text_area_html_element.value()
+}
+
+/// set text_area element value string by id
+pub fn set_text_area_element_value_string_by_id(element_id: &str, value: &str) {
+    //debug_write("before get_element_by_id");
+    let text_area_element = get_element_by_id(element_id);
+    //debug_write("before dyn_into");
+    let text_area_html_element =
+        unwrap!(text_area_element.dyn_into::<web_sys::HtmlTextAreaElement>());
+    //debug_write("before value()");
+    text_area_html_element.set_value(value);
 }

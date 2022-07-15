@@ -103,7 +103,7 @@ dependencies = [
 
 [[package]]
 name = "sort_text_international_rust_wasm_pwa"
-version = "2022.714.2313"
+version = "2022.715.44"
 dependencies = [
  "console_error_panic_hook",
  "js-sys",

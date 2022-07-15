@@ -1,7 +1,7 @@
 
 [package]
 name = "sort_text_international_rust_wasm_pwa"
-version = "2022.714.2313"
+version = "2022.715.44"
 authors = ["bestia.dev"]
 homepage = "https://bestia.dev"
 edition = "2021"
@@ -34,6 +34,7 @@ features = [
   "ErrorEvent",
   "HtmlElement",
   "HtmlInputElement",
+  "HtmlTextAreaElement",
   "Window",
 ]
 

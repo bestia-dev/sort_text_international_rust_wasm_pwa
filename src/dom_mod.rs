@@ -14,17 +14,13 @@ pub fn start_function() {
 pub fn inject_htm_into_dom() {
     let html = format!(
         r##"
-        <h2 id="hello_text">Hello World !</h2>
-		
-        <div class="button-wrap">
-            <label for="my_name">Enter your name:</label>  
-            <input style="width:40%;" type="text" id="my_name" value="my_name"/>
-        </div>
+<h2>Sort text</h2>
 
-        <!--tricky div+label+css to change Input file appearance -->
-        <div class="button-wrap">
-            <input id="button_1" type="button" class="button" value="Reload"/>
-        </div>
+<textarea rows="20" cols="50" id="my_text" ></textarea>
+
+<div>
+    <input id="button_1" type="button" class="button" value="Sort"/>
+</div>
         "##
     );
 
@@ -33,7 +29,9 @@ pub fn inject_htm_into_dom() {
 
 /// the listener calls this function
 fn on_click_button_1() {
-    let my_name = get_input_element_value_string_by_id("my_name");
-    let my_name = html_encode(&my_name);
-    set_inner_html("hello_text", &format!("Hello {my_name} !"));
+    let my_text = get_text_area_element_value_string_by_id("my_text");
+    let mut list: Vec<&str> = my_text.lines().collect();
+    list.sort();
+    let my_new_text = list.join("\n");
+    set_text_area_element_value_string_by_id("my_text", &my_new_text);
 }
