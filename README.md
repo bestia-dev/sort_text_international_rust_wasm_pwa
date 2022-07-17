@@ -29,7 +29,7 @@ Hashtags: #rustlang #tutorial #pwa #wasm #webassembly
 <https://bestia.dev/sort_text_international_rust_wasm_pwa/>  
 
 <!-- markdownlint-disable MD033 -->
-[<img src="https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/screen_2.png" width="400px">]
+<img src="https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/screen_2.png" width="400px">
 <!-- markdownlint-enable MD033 -->
 
 ## Development
