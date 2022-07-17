@@ -29,7 +29,7 @@ Hashtags: #rustlang #tutorial #pwa #wasm #webassembly
 <https://bestia.dev/sort_text_international_rust_wasm_pwa/>  
 
 <!-- markdownlint-disable MD033 -->
-<img src="https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/screen_2.png" width="300px">
+<img src="https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/screen_1.png" width="300px">
 <!-- markdownlint-enable MD033 -->
 
 ## Development
@@ -46,7 +46,7 @@ Open the browser in Win10 on:
 
 I made a Video tutorial on youtube:
 <!-- markdownlint-disable MD033 -->
-[<img src="https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/thumbnail.png" width="400px">](https://bestia.dev/youtube/sort_text_international_rust_wasm_pwa.html)
+[<img src="https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/screen_1.png" width="400px">](https://bestia.dev/youtube/sort_text_international_rust_wasm_pwa.html)
 <!-- markdownlint-enable MD033 -->
 
 ## Alphabetical sorting (collation)
