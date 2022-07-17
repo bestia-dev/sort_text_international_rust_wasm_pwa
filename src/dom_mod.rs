@@ -35,7 +35,6 @@ fn on_click_button_1() {
     let my_text = get_text_area_element_value_string_by_id("my_text");
     let list: Vec<&str> = my_text.lines().collect();
 
-    // the special sorting with crate feruca
     let list = crate::sorting_mod::sort(list, &locale);
 
     let my_new_text = list.join("\n");

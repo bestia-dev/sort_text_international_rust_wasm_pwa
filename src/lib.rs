@@ -2,14 +2,14 @@
 //! and for the big doc comments
 //!
 // region: auto_md_to_doc_comments include README.md A //!
-//! # sort_text_international_rust_wasm_pwa
+//! # 4. Tutorial for Coding simple PWA in Rust (sort_text_international_rust_wasm_pwa) (2022-07)
 //!
 //! **Sort text in different collations. It is a tutorial for Rust WASM PWA.**  
-//! ***version: 2022.717.51 date: 2022-07-17 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa)***  
+//! ***version: 2022.717.1708 date: 2022-07-17 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa)***  
 //!
 //! [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-160-green.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 //! [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-23-blue.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
-//! [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-24-purple.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
+//! [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-23-purple.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 //! [![Lines in examples](https://img.shields.io/badge/Lines_in_examples-0-yellow.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 //! [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-0-orange.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 //!
@@ -17,12 +17,27 @@
 //! [![Rust](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/workflows/RustAction/badge.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 //!
 //! Hashtags: #rustlang #tutorial #pwa #wasm #webassembly  
+//! My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
 //!
 //! ## Try it
 //!
 //! <https://bestia.dev/sort_text_international_rust_wasm_pwa/>  
 //!
+//! <!-- markdownlint-disable MD033 -->
+//! [<img src="https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/screen_1.png" width="300px">](https://bestia.dev/sort_text_international_rust_wasm_pwa/)
+//! <!-- markdownlint-enable MD033 -->
+//!
 //! ## Development
+//!
+//! My development environment is thoroughly explained in my previous projects with youtube video tutorial:  
+//! [1. Linux everywhere! Install wsl2 and debian11 on win10 (win10_wsl2_debian11) (2022-03)](https://github.com/bestia-dev/win10_wsl2_debian11)  
+//! [2. Rust: Hack Without Fear ! Rust Development Environment in Docker Container. (docker_rust_development) (2022-03)](https://github.com/bestia-dev/docker_rust_development)  
+//! [3. Coding a Rust client CLI for plantuml server (rust_plantuml_client) (2022-04)](https://github.com/bestia-dev/rust_plantuml_client)  
+//!
+//! This project has also a youtube video tutorial. Watch it:
+//! <!-- markdownlint-disable MD033 -->
+//! [<img src="https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/screen_1.png" width="400px">](https://bestia.dev/youtube/sort_text_international_rust_wasm_pwa.html)
+//! <!-- markdownlint-enable MD033 -->
 //!
 //! Use `cargo-auto` to automate development tasks: `cargo install cargo-auto`.  
 //! Then inside the Rust project folder run `cargo auto` for the instructions.
@@ -34,17 +49,11 @@
 //! Open the browser in Win10 on:  
 //! <http://127.0.0.1:4000/sort_text_international_rust_wasm_pwa/>  
 //!
-//! I made a Video tutorial on youtube:
-//! <!-- markdownlint-disable MD033 -->
-//! [<img src="https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/thumbnail.png" width="400px">](https://bestia.dev/youtube/sort_text_international_rust_wasm_pwa.html)
-//! <!-- markdownlint-enable MD033 -->
-//!
 //! ## Alphabetical sorting (collation)
 //!
-//! I will use javascript Intl Collator object to sort text for different languages.
-//! Rust does not have yet a stable collation library.
-//!
-//! TODO: add a list of languages to choose from.
+//! I will use the javascript Intl Collator object to sort text for different languages.
+//! Rust does not have yet a stable collation library.  
+//! Rust (wasm) and javascript can work very well together with web_sys and js_sys crates using wasm-bindgen.  
 //!
 //! ## Template
 //!
