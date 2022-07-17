@@ -203,7 +203,7 @@ fn task_publish_to_web() {
     );
     run_shell_command(&shell_command);
     let shell_command = format!(
-        "rsync -e ssh -a --info=progress2 --delete-after ~/rustprojects/{package_name}/web_server_folder/ bestia.dev@bestia.dev:/var/www/bestia.dev/sort_text_international_rust_wasm_pwa/",
+        "rsync -e ssh -a --info=progress2 --delete-after ~/rustprojects/{package_name}/web_server_folder/{package_name}/ luciano_bestia@bestia.dev:/var/www/bestia.dev/{package_name}/",
         package_name = cargo_toml.package_name()
     );
     run_shell_command(&shell_command);
