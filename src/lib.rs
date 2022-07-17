@@ -8,6 +8,7 @@
 use wasm_bindgen::prelude::*;
 
 mod dom_mod;
+mod sorting_mod;
 mod web_sys_mod;
 
 #[wasm_bindgen(start)]

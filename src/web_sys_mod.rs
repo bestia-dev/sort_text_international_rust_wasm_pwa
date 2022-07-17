@@ -33,7 +33,7 @@ pub fn get_html_element_by_id(element_id: &str) -> web_sys::HtmlElement {
     //return
     html_element
 }
-
+/*
 /// HTML encode - naive
 pub fn html_encode(input: &str) -> String {
     input
@@ -43,6 +43,7 @@ pub fn html_encode(input: &str) -> String {
         .replace("<", "&lt;")
         .replace(">", "&gt;")
 }
+*/
 
 /// set inner html into dom
 /// The inner_html must be correctly HTML encoded !
@@ -83,4 +84,32 @@ pub fn set_text_area_element_value_string_by_id(element_id: &str, value: &str) {
         unwrap!(text_area_element.dyn_into::<web_sys::HtmlTextAreaElement>());
     //debug_write("before value()");
     text_area_html_element.set_value(value);
+}
+
+pub fn create_collator(locale: &str) -> js_sys::Intl::Collator {
+    let array = js_sys::Array::new();
+    debug_write(locale);
+    let locale_js = wasm_bindgen::JsValue::from_str(locale);
+    array.push(&locale_js);
+    let object = js_sys::Object::new();
+    let collator = js_sys::Intl::Collator::new(&array, &object);
+    // return
+    collator
+}
+
+pub fn collator_compare(collator: &js_sys::Intl::Collator, a: &str, b: &str) -> std::cmp::Ordering {
+    // console.log(['Z', 'a', 'z', 'ä'].sort(new Intl.Collator('de').compare));
+    match collator
+        .compare()
+        .call2(&JsValue::NULL, &JsValue::from_str(a), &JsValue::from_str(b))
+    {
+        Err(_err) => std::cmp::Ordering::Equal,
+        Ok(js_value) => {
+            if js_value.as_f64().unwrap() > 0.0 {
+                std::cmp::Ordering::Greater
+            } else {
+                std::cmp::Ordering::Less
+            }
+        }
+    }
 }
