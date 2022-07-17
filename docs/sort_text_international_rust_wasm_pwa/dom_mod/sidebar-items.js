@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["inject_htm_into_dom","inject html into dom"],["on_click_button_1","the listener calls this function"],["start_function","The app starts with this function"]]});

@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["sort_text_international_rust_wasm_pwa"];
