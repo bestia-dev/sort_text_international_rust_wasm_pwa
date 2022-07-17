@@ -28,6 +28,8 @@ Hashtags: #rustlang #tutorial #pwa #wasm #webassembly
 
 <https://bestia.dev/sort_text_international_rust_wasm_pwa/>  
 
+![screenshot](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/screen_2.png)
+
 ## Development
 
 Use `cargo-auto` to automate development tasks: `cargo install cargo-auto`.  

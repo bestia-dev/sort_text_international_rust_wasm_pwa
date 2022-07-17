@@ -44,7 +44,7 @@ relative to this font-size.*/
 body {
     max-width: 600px;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     font-size: 60%;
     line-height: 1.5;
     background-color: var(--b_color_body);
