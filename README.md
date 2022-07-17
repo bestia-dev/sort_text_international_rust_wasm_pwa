@@ -6,14 +6,14 @@
 [comment]: # (auto_cargo_toml_to_md start)
 
 **Sort text in different collations. It is a tutorial for Rust WASM PWA.**  
-***version: 2022.717.46 date: 2022-07-17 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa)***  
+***version: 2022.717.51 date: 2022-07-17 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa)***  
 
 [comment]: # (auto_cargo_toml_to_md end)
 
 [comment]: # (auto_lines_of_code start)
-[![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-152-green.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
-[![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-22-blue.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
-[![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-23-purple.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
+[![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-160-green.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
+[![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-23-blue.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
+[![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-24-purple.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 [![Lines in examples](https://img.shields.io/badge/Lines_in_examples-0-yellow.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-0-orange.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 

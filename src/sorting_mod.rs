@@ -2,11 +2,8 @@
 
 use crate::web_sys_mod::*;
 
-pub fn sort<'a>(mut list: Vec<&'a str>) -> Vec<&'a str> {
-    // Rust does not have stable international sorting
-    // I will use the javascript Intl Collator
-
-    let collator = create_collator("sl");
+pub fn sort<'a>(mut list: Vec<&'a str>, locale: &str) -> Vec<&'a str> {
+    let collator = create_collator(locale);
 
     list.sort_by(|a, b| collator_compare(&collator, a, b));
     //return

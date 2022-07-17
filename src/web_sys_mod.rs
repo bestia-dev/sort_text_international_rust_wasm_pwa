@@ -45,6 +45,16 @@ pub fn html_encode(input: &str) -> String {
 }
 */
 
+/// get input element value string by id
+pub fn get_input_element_value_string_by_id(element_id: &str) -> String {
+    // debug_write("before get_element_by_id");
+    let input_element = get_element_by_id(element_id);
+    // debug_write("before dyn_into");
+    let input_html_element = unwrap!(input_element.dyn_into::<web_sys::HtmlInputElement>());
+    // debug_write("before value()");
+    input_html_element.value()
+}
+
 /// set inner html into dom
 /// The inner_html must be correctly HTML encoded !
 pub fn set_inner_html(element_id: &str, inner_html: &str) {
