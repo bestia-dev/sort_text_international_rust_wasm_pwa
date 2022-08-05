@@ -1,7 +1,7 @@
 
 [comment]: # (auto_md_to_doc_comments segment start A)
 
-# 04. Tutorial for Coding simple PWA in Rust (sort_text_international_rust_wasm_pwa) (2022-07)
+# sort_text_international_rust_wasm_pwa
 
 [comment]: # (auto_cargo_toml_to_md start)
 
