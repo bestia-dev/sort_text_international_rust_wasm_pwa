@@ -74,11 +74,11 @@ Learning Rust and Wasm programming and having fun.
 I just love  programming !
 
 In my first video tutorial, we set up WSL 2 (Windows subsystem for Linux) with Debian 11 on Windows 10.
-<https://youtu.be/ZgziGt1P9hA>
+<https://bestia.dev/youtube/win10_wsl2_debian11.html>
 In the second video, we created a Docker container with a complete Rust development environment to use with VS Code.
-<https://youtu.be/wr1f-TOcgMk>
+<https://bestia.dev/youtube/docker_rust_development.html>
 In the third video, we created a simple CLI (command line interface) application to demonstrate how Rust development works in real life.
-<https://youtu.be/4lqA4sPzjzQ>
+<https://bestia.dev/youtube/rust_plantuml_client.html>
 
 Today we will go a step further to perfection.  
 The Rust code can be compiled for almost every architecture and Operating system. And the CLI interface for text terminals is almost universal.  
