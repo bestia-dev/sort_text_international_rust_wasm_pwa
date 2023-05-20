@@ -41,11 +41,6 @@ My development environment is thoroughly explained in my previous projects with 
 [2. Rust: Hack Without Fear ! Rust Development Environment in Docker Container. (docker_rust_development) (2022-03)](https://github.com/bestia-dev/docker_rust_development)  
 [3. Coding a Rust client CLI for PlantUml server (rust_plantuml_client) (2022-04)](https://github.com/bestia-dev/rust_plantuml_client)  
 
-This project has also a youtube video tutorial. Watch it:
-<!-- markdownlint-disable MD033 -->
-[<img src="https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/thumbnail.png" width="400px">](https://bestia.dev/youtube/sort_text_international_rust_wasm_pwa.html)
-<!-- markdownlint-enable MD033 -->
-
 Use `cargo-auto` to automate development tasks: `cargo install cargo-auto`.  
 Then inside the Rust project folder run `cargo auto` for the instructions.
 PWA files MUST be served by a web server. We will use the most simple development web server:  
