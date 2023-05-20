@@ -1,44 +1,45 @@
 
-[comment]: # (auto_md_to_doc_comments segment start A)
+[//]: # (auto_md_to_doc_comments segment start A)
 
 # sort_text_international_rust_wasm_pwa
 
-[comment]: # (auto_cargo_toml_to_md start)
+[//]: # (auto_cargo_toml_to_md start)
 
 **04. Tutorial for Coding simple PWA in Rust (sort_text_international_rust_wasm_pwa) (2022-07)**  
-***version: 2022.717.1738 date: 2022-07-17 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa)***  
+***version: 2022.717.1738 date: 2022-07-17 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa)***  
 
-[comment]: # (auto_cargo_toml_to_md end)
+[//]: # (auto_cargo_toml_to_md end)
 
-[comment]: # (auto_lines_of_code start)
+[//]: # (auto_lines_of_code start)
 [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-159-green.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-101-blue.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-23-purple.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 [![Lines in examples](https://img.shields.io/badge/Lines_in_examples-0-yellow.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-0-orange.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
 
-[comment]: # (auto_lines_of_code end)
+[//]: # (auto_lines_of_code end)
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/blob/master/LICENSE)
 [![Rust](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/workflows/RustAction/badge.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/) ![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/194693097.svg)
 
 Hashtags: #rustlang #tutorial #pwa #wasm #webassembly  
-My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
+My projects on GitHub are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
 
 ## Try it
 
 <https://bestia.dev/sort_text_international_rust_wasm_pwa/>  
 
+This project has also a youtube video tutorial. Watch it:
 <!-- markdownlint-disable MD033 -->
-[<img src="https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/raw/main/images/screen_1.png" width="300px">](https://bestia.dev/sort_text_international_rust_wasm_pwa/)
+[<img src="https://bestia.dev/youtube/sort_text_international_rust_wasm_pwa.jpg" width="400px">](https://bestia.dev/youtube/sort_text_international_rust_wasm_pwa.html)
 <!-- markdownlint-enable MD033 -->
 
 ## Development
 
-My development environment is thoroughly explained in my previous projects with youtube video tutorial:  
+My development environment is thoroughly explained in my previous projects with youtube video tutorials:  
 [1. Linux everywhere! Install wsl2 and debian11 on win10 (win10_wsl2_debian11) (2022-03)](https://github.com/bestia-dev/win10_wsl2_debian11)  
 [2. Rust: Hack Without Fear ! Rust Development Environment in Docker Container. (docker_rust_development) (2022-03)](https://github.com/bestia-dev/docker_rust_development)  
-[3. Coding a Rust client CLI for plantuml server (rust_plantuml_client) (2022-04)](https://github.com/bestia-dev/rust_plantuml_client)  
+[3. Coding a Rust client CLI for PlantUml server (rust_plantuml_client) (2022-04)](https://github.com/bestia-dev/rust_plantuml_client)  
 
 This project has also a youtube video tutorial. Watch it:
 <!-- markdownlint-disable MD033 -->
@@ -73,7 +74,7 @@ Welcome to bestia.dev !
 Learning Rust and Wasm programming and having fun.
 I just love  programming !
 
-In my first video tutorial, we set up WSL 2 (Windows subsystem for Linux) with Debian 11 on Windows 10.
+In my first video tutorial, we set up WSL 2 (Windows Subsystem for Linux) with Debian 11 on Windows 10.
 <https://bestia.dev/youtube/win10_wsl2_debian11.html>
 In the second video, we created a Docker container with a complete Rust development environment to use with VS Code.
 <https://bestia.dev/youtube/docker_rust_development.html>
@@ -86,17 +87,17 @@ The Rust code can be compiled for almost every architecture and Operating system
 What we really want is to have a Graphical user interface, but this is a problem Rust cannot help us.  
 <https://www.areweguiyet.com/>
 Every Operating system invented a totally incompatible library for the G.U.I. On purpose, so they can sell expensive things and have a monopoly.
-There are a few universal G.U.I libraries that works on many OS, but probably not everywhere.
+There are a few universal G.U.I libraries that work on many OS, but probably not everywhere.
 I think that the only true world standard for G.U.I is HTML5 with CSS3. That will probably work everywhere.
 <https://www.w3.org/wiki/The_web_standards_model_-_HTML_CSS_and_JavaScript>
 It is not a light solution, the HTML and CSS must be rendered by a browser. But if the whole web is created around it, that must mean it is quite good.
 
-The G.U.I must be manipulated programmatically and unfortunately for 25 years we were cursed to use only Javascript. That was not great at all.
-Fortunately all browser manufacturers agreed and implemented WebAssembly or WASM. The best language to be compiled to WASM is Rust. Great for us Rustaceans!
+The G.U.I must be manipulated programmatically and unfortunately for 25 years, we were cursed to use only Javascript. That was not great at all.
+Fortunately, all browser manufacturers agreed and implemented WebAssembly or WASM. The best language to be compiled for WASM is Rust. Great for us Rustaceans!
 <https://webassembly.org/>
 <https://www.rust-lang.org/what/wasm>
 
-Traditional Web pages and Web Applications needed an internet connection to be online to work. For a simple utility application we would like to use it offline.
+Traditional Web pages and Web Applications needed an internet connection to be online to work. For a simple utility application, we would like to use it offline.
 Enter PWA (Progressive Web Application). This is a small standard that enables offline use of Web Applications and it is implemented in all modern browsers. Hooray!
 <https://www.freecodecamp.org/news/what-are-progressive-web-apps/>
 
@@ -115,28 +116,28 @@ It is also a PWA that can be used online or offline. Practice What You Preach !
 <https://bestia.dev/bestia_dev_new_rust_wasm_pwa/>
 We need some basic data to initialize the project like name, description, author, etc...
 The name of the project will be "Sort text international Rust WASM PWA".
-Finally we need a png image exactly 512x512 pixels for the icons.
+Finally, we need a png image of exactly 512x512 pixels for the icons.
 The template is created and we can download it.
 
-After reboot I need to initialize my Rust development environment with a short script.
+After reboot, I need to initialize my Rust development environment with a short script.
 Press Ctrl-R, type "after" to search in bash history, then press tab and press enter.
 
 We can use the fantastic Total Commander File Manager in Windows to extract the files and copy them over SSH to our Docker container.
 The Secure FTP plugin is great for file operations over SSH.
 To open my Directory hotlist I press Ctrl-d.  
-I can work with zip just like with any other folder. I select the content and press F5 to copy over SSH.
+I can work with Zip just like with any other folder. I select the content and press F5 to copy over SSH.
 
 Now I can open VSCode, press F1 and connect to the Remote SSH Host inside my docker container.
-In the VSCode terminal I will go to the new directory and open a new VSCode window.
+In the VSCode terminal, I will go to the new directory and open a new VSCode window.
 We have a minimal but fully functional Rust project.  
 We can see all the files and folders:  
-the standard License, Readme and Cargo toml files,
+the standard License, Readme and Cargo.toml files,
 the automation tasks,  
 the Rust code in 3 separate modules,  
 the Web server folder with the index.html, service worker, manifest and icons needed for PWA.
 
 We can build the project simply with "cargo auto build".
-After the automated task there are instructions how to proceed.
+After the automated task, there are instructions on how to proceed.
 Open a separate bash terminal and run the simple web server only once.
 Then leave that terminal to run in the background. It will constantly serve the new files as you build.
 Ctrl-click on the URL to open the browser. The PWA is working.
@@ -144,19 +145,19 @@ I can now enter my name and click on the button Reload to see if the Rust code i
 In F12 developer tools I can debug the application.
 Heureka! It works.
 
-Now is a good time to add this project to github.  
+Now is a good time to add this project to GitHub.  
 I use VSCode to initialize the repo and for the first commit.  
-Then in VSCode terminal I copy the commands from Github.
-I use ssh-agent and ssh-add to store my SSH credentials for github.
+Then in VSCode terminal, I copy the commands from GitHub.
+I use ssh-agent and ssh-add to store my SSH credentials for GitHub.
 
-Finally we are ready to write some Rust code. For this simple application the html is stored inside the Rust code in a Raw string.
-Raw strings are great, because you can copy-paste exactly the same string without alterations.
+Finally, we are ready to write some Rust code. For this simple application, the html is stored inside the Rust code in a Raw string.
+Raw strings are great because you can copy-paste exactly the same string without alterations.
 When we change the Rust code, we compile it and then refresh the browser page. The web server works in the background all the time.
-It is wise to use F12 developers tools to debug the application.
+It is wise to use F12 developer's tools to debug the application.
 
 We changed the input type text into a textarea element. The way to get and set the value is different.
-The web-sys library uses only the features listed in Cargo.toml. In this case we need to add one.
-We can now read the textarea, sort it naively and set it back. Let build and test in te browser.
+The web-sys library uses only the features listed in Cargo.toml. In this case, we need to add one.
+We can now read the textarea, sort it naively and set it back. Let's build and test in the browser.
 
 This English alphabetical sort order is not good for me, I need the Slovenian because of special characters.
 Rust does not have yet a stable unicode collation library.
@@ -178,28 +179,19 @@ Control-click the link, it will open our application in the browser.
 We can now sort in the "sl" Slovenian collation alphabetical order.
 Heureka!! It works correctly!
 The locale can be "de" for German or "hr" for Croatian, etc.
-Finally we can write in the README file all the important information and links.
+Finally, we can write in the README file all the important information and links.
 I made also a screenshot of the working application so the README file is not so boring.  
 I will add the link to this video when it will be ready.
-To view the preview of the readme file first pres Ctrl-B to close the Explorer then Ctrl-K and V to open the preview.  
-We will now run our automation tasks one-by-one finishing with the publish to web. The step-by-step instructions are very helpful.
+To view the preview of the readme file first press Ctrl-B to close the Explorer then Ctrl-K and V to open the preview.  
+We will now run our automation tasks one-by-one finishing with the publish to the web. The step-by-step instructions are very helpful.
 Cargo-auto has added bash auto-completion for the cargo command and all automation tasks.
-The standard tasks are in this order: build, create doc, test, commit and publish to web.
-I use ssh-agent and ssh-add to store my credentials for github and web server.
-Control click the link to open the PWA from the true web server.
+The standard tasks are in this order: build, create doc, test, commit and publish to the web.
+I use ssh-agent and ssh-add to store my credentials for GitHub and web server.
+Control-click the link to open the PWA from the true web server.
 
 This is all for today.  
 Thank you for watching and see you next time.  
 Feel free to contact me on bestia.dev or github.
-
-## cargo crev reviews and advisory
-
-We live in times of danger with [supply chain attacks](https://en.wikipedia.org/wiki/Supply_chain_attack).  
-It is recommended to always use [cargo-crev](https://github.com/crev-dev/cargo-crev)  
-to verify the trustworthiness of each of your dependencies.  
-Please, spread this info.  
-You can also read reviews quickly on the web:  
-<https://web.crev.dev/rust-reviews/crates/>  
 
 ## Open-source and free as a beer
 
@@ -215,4 +207,4 @@ So I can drink a free beer for your health :-)
 [//bestiadev.substack.com](https://bestiadev.substack.com)  
 [//youtube.com/@bestia-dev-tutorials](https://youtube.com/@bestia-dev-tutorials)  
 
-[comment]: # (auto_md_to_doc_comments segment end A)
+[//]: # (auto_md_to_doc_comments segment end A)

@@ -4,6 +4,7 @@
         "Alla",
         "apos",
         "bestia",
+        "bestiadev",
         "bindgen",
         "cdylib",
         "crev",
@@ -20,6 +21,7 @@
         "rustlang",
         "rustprojects",
         "serde",
+        "substack",
         "webassembly",
         "zdravje"
     ]
