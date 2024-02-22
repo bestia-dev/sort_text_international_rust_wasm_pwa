@@ -1,4 +1,3 @@
-
 # sort_text_international_rust_wasm_pwa
 
 [//]: # (auto_cargo_toml_to_md start)
