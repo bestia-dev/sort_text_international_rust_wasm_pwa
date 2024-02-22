@@ -129,7 +129,7 @@ cd ~/rustprojects/{package_name}/web_server_folder; basic-http-server
     Finally open the browser in Win10 on 
 http://localhost:4000/{package_name}/
 
-    if ok, then,
+    if ok then
 cargo auto doc
 {RESET}"#,
 package_name = cargo_toml.package_name(),
@@ -157,7 +157,7 @@ fn task_doc() {
     // message to help user with next move
     println!(
         r#"{YELLOW}
-    After `cargo auto doc`, check `docs/index.html`. If ok, then test the documentation code examples
+    After `cargo auto doc`, check `docs/index.html`. If ok then test the documentation code examples
 cargo auto test
 {RESET}"#
     );
@@ -168,7 +168,7 @@ fn task_test() {
     run_shell_command("cargo test");
     println!(
         r#"{YELLOW}
-    After `cargo auto test`. If ok, then 
+    After `cargo auto test`. If ok then 
 cargo auto commit_and_push "message"
     with mandatory commit message
 {RESET}"#
