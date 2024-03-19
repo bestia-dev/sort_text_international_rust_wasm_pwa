@@ -40,8 +40,8 @@ This project has also a youtube video tutorial. Watch it:
 ## Development
 
 My development environment is thoroughly explained in my previous projects with youtube video tutorials:  
-[1. Linux everywhere! Install wsl2 and debian11 on win10 (win10_wsl2_debian11) (2022-03)](https://github.com/bestia-dev/win10_wsl2_debian11)  
-[2. Rust: Hack Without Fear ! Rust Development Environment in Docker Container. (docker_rust_development) (2022-03)](https://github.com/bestia-dev/docker_rust_development)  
+[1. Linux everywhere! Install wsl2 and debian11 on win10 (win10_wsl2_debian11) (2022-03)](https://github.com/CRUSTDE-Containerized-Rust-Dev-Env/win10_wsl2_debian11)  
+[2. Rust: Hack Without Fear ! Rust Development Environment in Docker Container. (docker_rust_development) (2022-03)](https://github.com/CRUSTDE-Containerized-Rust-Dev-Env/docker_rust_development)  
 [3. Coding a Rust client CLI for PlantUml server (rust_plantuml_client) (2022-04)](https://github.com/bestia-dev/rust_plantuml_client)  
 
 Use `cargo-auto` to automate development tasks: `cargo install cargo-auto`.  
