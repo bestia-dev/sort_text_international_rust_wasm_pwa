@@ -40,8 +40,8 @@ This project has also a youtube video tutorial. Watch it:
 ## Development
 
 My development environment is thoroughly explained in my previous projects with youtube video tutorials:  
-[1. Linux everywhere! Install wsl2 and debian11 on win10 (win10_wsl2_debian11) (2022-03)](https://github.com/CRUSTDE-Containerized-Rust-Dev-Env/win10_wsl2_debian11)  
-[2. Rust: Hack Without Fear ! Rust Development Environment in Docker Container. (docker_rust_development) (2022-03)](https://github.com/CRUSTDE-Containerized-Rust-Dev-Env/docker_rust_development)  
+[1. Linux everywhere! Install wsl2 and debian11 on win10 (win10_wsl2_debian11) (2022-03)](https://github.com/CRUSTDE-Containerized-Rust-DevEnv/win10_wsl2_debian11)  
+[2. Rust: Hack Without Fear ! Rust Development Environment in Docker Container. (crustde_cnt_img_pod) (2022-03)](https://github.com/CRUSTDE-Containerized-Rust-DevEnv/crustde_cnt_img_pod)  
 [3. Coding a Rust client CLI for PlantUml server (rust_plantuml_client) (2022-04)](https://github.com/bestia-dev/rust_plantuml_client)  
 
 Use `cargo-auto` to automate development tasks: `cargo install cargo-auto`.  
@@ -75,7 +75,7 @@ I just love  programming !
 In my first video tutorial, we set up WSL 2 (Windows Subsystem for Linux) with Debian 11 on Windows 10.
 <https://bestia.dev/youtube/win10_wsl2_debian11.html>
 In the second video, we created a Docker container with a complete Rust development environment to use with VS Code.
-<https://bestia.dev/youtube/docker_rust_development.html>
+<https://bestia.dev/youtube/crustde_cnt_img_pod.html>
 In the third video, we created a simple CLI (command line interface) application to demonstrate how Rust development works in real life.
 <https://bestia.dev/youtube/rust_plantuml_client.html>
 
