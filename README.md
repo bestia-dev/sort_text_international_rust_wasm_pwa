@@ -22,7 +22,7 @@
 [//]: # (auto_lines_of_code end)
 
  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/blob/master/LICENSE)
- [![Rust](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/workflows/RustAction/badge.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
+ [![Rust](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/workflows/rust_fmt_auto_build_test/badge.svg)](https://github.com/bestia-dev/sort_text_international_rust_wasm_pwa/)
  ![sort_text_international_rust_wasm_pwa](https://bestia.dev/webpage_hit_counter/get_svg_image/194693097.svg)
 
 Hashtags: #rustlang #tutorial #pwa #wasm #webassembly  
